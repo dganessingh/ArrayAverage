@@ -11,7 +11,7 @@ public class App {
             String input = scanner.nextLine();
 
             if (input.matches("^\\d+$") == false) {
-                System.out.println("Invalid input. Please enter an integer.");
+                System.out.println("Invalid input. Please enter a number.");
                 return;
             }
 
